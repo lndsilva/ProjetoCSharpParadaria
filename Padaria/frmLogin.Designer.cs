@@ -92,21 +92,27 @@
             // btnEntrar
             // 
             this.btnEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntrar.Image = ((System.Drawing.Image)(resources.GetObject("btnEntrar.Image")));
             this.btnEntrar.Location = new System.Drawing.Point(372, 326);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(115, 41);
             this.btnEntrar.TabIndex = 2;
-            this.btnEntrar.Text = "Entrar";
+            this.btnEntrar.Text = "&Entrar";
+            this.btnEntrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEntrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnEntrar.UseVisualStyleBackColor = true;
             // 
             // btnSair
             // 
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
             this.btnSair.Location = new System.Drawing.Point(529, 326);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(115, 41);
             this.btnSair.TabIndex = 3;
-            this.btnSair.Text = "Sair";
+            this.btnSair.Text = "Sai&r";
+            this.btnSair.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSair.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSair.UseVisualStyleBackColor = true;
             // 
             // frmLogin
