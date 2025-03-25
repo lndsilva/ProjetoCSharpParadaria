@@ -16,7 +16,7 @@ namespace Padaria
         {
             InitializeComponent();
         }
-        
+
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             ////declarando variáveis
@@ -33,9 +33,56 @@ namespace Padaria
             //valor4 = 10;
 
             //resp = valor1 + valor4;
+            //declarando as variaveis
+            double num1, num2, resp = 0;
+
+            try
+            {
+                //inicializar as variaveis
+                num1 = Convert.ToDouble(txtNumero1.Text);
+                num2 = Convert.ToDouble(txtNumero2.Text);
 
 
+                if (rdbSomar.Checked)
+                {
+                    resp = num1 + num2;
+                }
+                if (rdbSubtrair.Checked)
+                {
+                    resp = num1 - num2;
+                }
+                if (rdbMultiplicar.Checked)
+                {
+                    resp = num1 * num2;
+                }
+                if (rdbDivisao.Checked)
+                {
+                    if (num2 == 0)
+                    {
+                        MessageBox.Show("Impossível dividir por zero",
+                            "Mensagem do sistema",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Error,
+                            MessageBoxDefaultButton.Button1);
 
+                        resp = 0;
+                    }
+                    else
+                    {
+                        resp = num1 / num2;
+                    }
+
+                }
+                txtResposta.Text = resp.ToString();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Favor inserir somente números",
+                    "Mensagem do sistema",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Error,
+                            MessageBoxDefaultButton.Button1);
+            }
 
 
         }
@@ -51,6 +98,8 @@ namespace Padaria
             rdbSubtrair.Checked = false;
             rdbMultiplicar.Checked = false;
             rdbDivisao.Checked = false;
+
+            txtNumero1.Focus();
         }
 
         private void btnSair_Click(object sender, EventArgs e)
