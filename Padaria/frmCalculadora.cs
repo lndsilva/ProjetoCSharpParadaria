@@ -42,51 +42,65 @@ namespace Padaria
                 num1 = Convert.ToDouble(txtNumero1.Text);
                 num2 = Convert.ToDouble(txtNumero2.Text);
 
+                if (rdbSomar.Checked == false &&
+                    rdbSubtrair.Checked == false &&
+                    rdbMultiplicar.Checked == false &&
+                    rdbDivisao.Checked == false)
+                {
+                    MessageBox.Show("Selecione uma operação",
+                        "Mensagem do sistema",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error,
+                        MessageBoxDefaultButton.Button1);
+                }
+                else
+                {
 
-                if (rdbSomar.Checked)
-                {
-                    resp = num1 + num2;
-                }
-                if (rdbSubtrair.Checked)
-                {
-                    resp = num1 - num2;
-                }
-                if (rdbMultiplicar.Checked)
-                {
-                    resp = num1 * num2;
-                }
-                if (rdbDivisao.Checked)
-                {
-                    if (num2 == 0)
+                    if (rdbSomar.Checked)
                     {
-                        MessageBox.Show("Impossível dividir por zero",
-                            "Mensagem do sistema",
-                            MessageBoxButtons.OK,
-                            MessageBoxIcon.Error,
-                            MessageBoxDefaultButton.Button1);
-
-                        resp = 0;
+                        resp = num1 + num2;
                     }
-                    else
+                    if (rdbSubtrair.Checked)
                     {
-                        resp = num1 / num2;
+                        resp = num1 - num2;
                     }
+                    if (rdbMultiplicar.Checked)
+                    {
+                        resp = num1 * num2;
+                    }
+                    if (rdbDivisao.Checked)
+                    {
+                        if (num2 == 0)
+                        {
+                            MessageBox.Show("Impossível dividir por zero",
+                                "Mensagem do sistema",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Error,
+                                MessageBoxDefaultButton.Button1);
 
+                            resp = 0;
+                        }
+                        else
+                        {
+                            resp = num1 / num2;
+                        }
+
+                    }
+                    txtResposta.Text = resp.ToString();
                 }
-                txtResposta.Text = resp.ToString();
             }
             catch (Exception)
             {
-                MessageBox.Show("Favor inserir somente números",
-                    "Mensagem do sistema",
-                            MessageBoxButtons.OK,
-                            MessageBoxIcon.Error,
-                            MessageBoxDefaultButton.Button1);
+                MessageBox.Show("Insira valores válidos",
+                   "Mensagem do sistema",
+                   MessageBoxButtons.OK,
+                   MessageBoxIcon.Error,
+                   MessageBoxDefaultButton.Button1);
+                txtNumero1.Clear();
+                txtNumero2.Clear();
+                txtNumero1.Focus();
             }
-
-
         }
-
         private void btnLimpar_Click(object sender, EventArgs e)
         {
             //limpar os campos
