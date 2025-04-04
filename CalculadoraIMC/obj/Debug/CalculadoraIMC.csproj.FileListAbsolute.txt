@@ -7,3 +7,4 @@ C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC
 C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.CoreCompileInputs.cache
 C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.exe
 C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.pdb
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.frmCalculaIMC.resources
