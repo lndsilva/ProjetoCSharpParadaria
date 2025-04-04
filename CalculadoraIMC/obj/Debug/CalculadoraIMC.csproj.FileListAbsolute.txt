@@ -1,0 +1,9 @@
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\bin\Debug\CalculadoraIMC.exe.config
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\bin\Debug\CalculadoraIMC.exe
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\bin\Debug\CalculadoraIMC.pdb
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.AssemblyReference.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.Properties.Resources.resources
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.GenerateResource.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.CoreCompileInputs.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.exe
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CalculadoraIMC\obj\Debug\CalculadoraIMC.pdb

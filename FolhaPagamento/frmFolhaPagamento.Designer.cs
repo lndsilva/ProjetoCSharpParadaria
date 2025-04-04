@@ -114,7 +114,7 @@
             this.dtpDataFolha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpDataFolha.Location = new System.Drawing.Point(31, 45);
             this.dtpDataFolha.Name = "dtpDataFolha";
-            this.dtpDataFolha.Size = new System.Drawing.Size(110, 26);
+            this.dtpDataFolha.Size = new System.Drawing.Size(105, 26);
             this.dtpDataFolha.TabIndex = 0;
             this.dtpDataFolha.TabStop = false;
             // 

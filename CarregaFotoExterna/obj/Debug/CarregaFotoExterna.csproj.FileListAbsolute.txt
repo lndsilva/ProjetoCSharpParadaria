@@ -1,0 +1,10 @@
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CarregaFotoExterna\bin\Debug\CarregaFotoExterna.exe.config
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CarregaFotoExterna\bin\Debug\CarregaFotoExterna.exe
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CarregaFotoExterna\bin\Debug\CarregaFotoExterna.pdb
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CarregaFotoExterna\obj\Debug\CarregaFotoExterna.csproj.AssemblyReference.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CarregaFotoExterna\obj\Debug\CarregaFotoExterna.frmCarregaFotos.resources
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CarregaFotoExterna\obj\Debug\CarregaFotoExterna.Properties.Resources.resources
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CarregaFotoExterna\obj\Debug\CarregaFotoExterna.csproj.GenerateResource.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CarregaFotoExterna\obj\Debug\CarregaFotoExterna.csproj.CoreCompileInputs.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CarregaFotoExterna\obj\Debug\CarregaFotoExterna.exe
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\CarregaFotoExterna\obj\Debug\CarregaFotoExterna.pdb
