@@ -8,14 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace FolhaPagamento
 {
     public partial class frmFolhaPagamento : Form
-    {
+    {     
+
         public frmFolhaPagamento()
         {
             InitializeComponent();
-        }
+        }       
 
         private void btnSair_Click(object sender, EventArgs e)
         {
@@ -31,6 +33,7 @@ namespace FolhaPagamento
             chkPlanoSaude.Checked = false;
             cbbClubeLazer.Text = "";
             txtSalario.Focus();
+            
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
@@ -110,3 +113,5 @@ namespace FolhaPagamento
 
     }
 }
+
+

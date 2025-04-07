@@ -15,6 +15,7 @@ namespace Padaria
         public frmCalculadora()
         {
             InitializeComponent();
+           
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)

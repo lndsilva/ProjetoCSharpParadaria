@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarregaFotoExterna", "Carre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraIMC", "CalculadoraIMC\CalculadoraIMC.csproj", "{0AD19A31-3B98-43BF-9C56-451B1B4A7F07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoOrientacaoObjeto", "ProjetoOrientacaoObjeto\ProjetoOrientacaoObjeto.csproj", "{D0044411-E120-4DAC-8AED-BC7B17498EBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0AD19A31-3B98-43BF-9C56-451B1B4A7F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AD19A31-3B98-43BF-9C56-451B1B4A7F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AD19A31-3B98-43BF-9C56-451B1B4A7F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0044411-E120-4DAC-8AED-BC7B17498EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0044411-E120-4DAC-8AED-BC7B17498EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0044411-E120-4DAC-8AED-BC7B17498EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0044411-E120-4DAC-8AED-BC7B17498EBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -43,10 +43,7 @@ namespace CalculadoraIMC
 
                 imc = peso / (altura * altura);
 
-                if (imc)
-                {
-
-                }
+                
 
                 txtResultado.Text = imc.ToString();
             }
