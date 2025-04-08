@@ -53,10 +53,20 @@
     <Compile Include="frmExecutaObjeto.Designer.cs">
       <DependentUpon>frmExecutaObjeto.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmExecutaPessoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExecutaPessoa.Designer.cs">
+      <DependentUpon>frmExecutaPessoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pessoa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmExecutaObjeto.resx">
       <DependentUpon>frmExecutaObjeto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExecutaPessoa.resx">
+      <DependentUpon>frmExecutaPessoa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
