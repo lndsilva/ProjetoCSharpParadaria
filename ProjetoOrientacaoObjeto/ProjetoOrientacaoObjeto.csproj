@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculadora.cs" />
+    <Compile Include="frmEstrutraRepeticao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstrutraRepeticao.Designer.cs">
+      <DependentUpon>frmEstrutraRepeticao.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmExecutaObjeto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     <Compile Include="Produtos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmEstrutraRepeticao.resx">
+      <DependentUpon>frmEstrutraRepeticao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmExecutaObjeto.resx">
       <DependentUpon>frmExecutaObjeto.cs</DependentUpon>
     </EmbeddedResource>
