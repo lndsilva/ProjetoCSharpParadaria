@@ -56,18 +56,20 @@ namespace Padaria
                 }
                 else
                 {
+                    //Instanciando a classe Operações
+                    Operacoes op = new Operacoes();
 
                     if (rdbSomar.Checked)
                     {
-                        resp = num1 + num2;
+                        resp = op.somaValor(num1, num2);
                     }
                     if (rdbSubtrair.Checked)
                     {
-                        resp = num1 - num2;
+                        resp = op.subtrairValor(num1, num2);
                     }
                     if (rdbMultiplicar.Checked)
                     {
-                        resp = num1 * num2;
+                        resp = op.multiplacarValor(num1, num2);
                     }
                     if (rdbDivisao.Checked)
                     {
@@ -83,7 +85,7 @@ namespace Padaria
                         }
                         else
                         {
-                            resp = num1 / num2;
+                            resp = op.dividirValor(num1, num2);
                         }
 
                     }
