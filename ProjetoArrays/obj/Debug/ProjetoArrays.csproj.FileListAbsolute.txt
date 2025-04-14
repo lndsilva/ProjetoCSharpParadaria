@@ -1,0 +1,10 @@
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\bin\Debug\ProjetoArrays.exe.config
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\bin\Debug\ProjetoArrays.exe
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\bin\Debug\ProjetoArrays.pdb
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\obj\Debug\ProjetoArrays.csproj.AssemblyReference.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\obj\Debug\ProjetoArrays.Properties.Resources.resources
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\obj\Debug\ProjetoArrays.csproj.GenerateResource.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\obj\Debug\ProjetoArrays.csproj.CoreCompileInputs.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\obj\Debug\ProjetoArrays.exe
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\obj\Debug\ProjetoArrays.pdb
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\obj\Debug\ProjetoArrays.frmVetores.resources

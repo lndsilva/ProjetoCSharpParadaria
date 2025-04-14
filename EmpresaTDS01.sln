@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraIMC", "Calculado
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoOrientacaoObjeto", "ProjetoOrientacaoObjeto\ProjetoOrientacaoObjeto.csproj", "{D0044411-E120-4DAC-8AED-BC7B17498EBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoArrays", "ProjetoArrays\ProjetoArrays.csproj", "{3FEFF114-8958-45AC-84FA-BAD6FEAB7493}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D0044411-E120-4DAC-8AED-BC7B17498EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0044411-E120-4DAC-8AED-BC7B17498EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0044411-E120-4DAC-8AED-BC7B17498EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FEFF114-8958-45AC-84FA-BAD6FEAB7493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FEFF114-8958-45AC-84FA-BAD6FEAB7493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FEFF114-8958-45AC-84FA-BAD6FEAB7493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FEFF114-8958-45AC-84FA-BAD6FEAB7493}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,7 +15,7 @@ namespace Padaria
         public frmCalculadora()
         {
             InitializeComponent();
-           
+
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
@@ -61,15 +61,15 @@ namespace Padaria
 
                     if (rdbSomar.Checked)
                     {
-                        resp = op.somaValor(num1, num2);
+                        resp = op.somarValor(num1, num2);
                     }
                     if (rdbSubtrair.Checked)
                     {
-                        resp = op.subtrairValor(num1, num2);
+                        resp = op.subtracaoValor(num1, num2);
                     }
                     if (rdbMultiplicar.Checked)
                     {
-                        resp = op.multiplacarValor(num1, num2);
+                        resp = op.multiplicacaoValor(num1, num2);
                     }
                     if (rdbDivisao.Checked)
                     {
@@ -85,7 +85,7 @@ namespace Padaria
                         }
                         else
                         {
-                            resp = op.dividirValor(num1, num2);
+                            resp = op.divisaoValor(num1, num2);
                         }
 
                     }
@@ -99,24 +99,38 @@ namespace Padaria
                    MessageBoxButtons.OK,
                    MessageBoxIcon.Error,
                    MessageBoxDefaultButton.Button1);
-                txtNumero1.Clear();
-                txtNumero2.Clear();
-                txtNumero1.Focus();
+                //executando o médodo limpar campos
+                limparCampos();
+               
             }
+
+        }
+        //criando o método limpar campos
+        public void limparCampos()
+        {
+            txtNumero1.Clear();
+            txtNumero2.Clear();
+            txtNumero1.Focus();
         }
         private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            //executando método desabilitar e limpar
+            limparCamposDesabilitar();
+            
+        }
+        //limpar campos e desabilitar botões
+        public void limparCamposDesabilitar()
         {
             //limpar os campos
             txtNumero1.Text = "";
             txtNumero2.Clear();
             txtResposta.Clear();
+            txtNumero1.Focus();
 
             rdbSomar.Checked = false;
             rdbSubtrair.Checked = false;
             rdbMultiplicar.Checked = false;
             rdbDivisao.Checked = false;
-
-            txtNumero1.Focus();
         }
 
         private void btnSair_Click(object sender, EventArgs e)

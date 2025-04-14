@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D0044411-E120-4DAC-8AED-BC7B17498EBB}</ProjectGuid>
+    <ProjectGuid>{3FEFF114-8958-45AC-84FA-BAD6FEAB7493}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ProjetoOrientacaoObjeto</RootNamespace>
-    <AssemblyName>ProjetoOrientacaoObjeto</AssemblyName>
+    <RootNamespace>ProjetoArrays</RootNamespace>
+    <AssemblyName>ProjetoArrays</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,61 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculadora.cs" />
-    <Compile Include="frmEstrutraRepeticao.cs">
+    <Compile Include="frmVetores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEstrutraRepeticao.Designer.cs">
-      <DependentUpon>frmEstrutraRepeticao.cs</DependentUpon>
+    <Compile Include="frmVetores.Designer.cs">
+      <DependentUpon>frmVetores.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmExecutaObjeto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmExecutaObjeto.Designer.cs">
-      <DependentUpon>frmExecutaObjeto.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmExecutaPessoa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmExecutaPessoa.Designer.cs">
-      <DependentUpon>frmExecutaPessoa.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmJogoMemoria.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmJogoMemoria.Designer.cs">
-      <DependentUpon>frmJogoMemoria.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmProdutos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmProdutos.Designer.cs">
-      <DependentUpon>frmProdutos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Pessoa.cs" />
-    <Compile Include="Produtos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="teste.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="teste.Designer.cs">
-      <DependentUpon>teste.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="frmEstrutraRepeticao.resx">
-      <DependentUpon>frmEstrutraRepeticao.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmExecutaObjeto.resx">
-      <DependentUpon>frmExecutaObjeto.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmExecutaPessoa.resx">
-      <DependentUpon>frmExecutaPessoa.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmJogoMemoria.resx">
-      <DependentUpon>frmJogoMemoria.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmProdutos.resx">
-      <DependentUpon>frmProdutos.cs</DependentUpon>
+    <EmbeddedResource Include="frmVetores.resx">
+      <DependentUpon>frmVetores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -111,9 +66,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="teste.resx">
-      <DependentUpon>teste.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

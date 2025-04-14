@@ -8,21 +8,26 @@ namespace Padaria
 {
     public class Operacoes
     {
-        public double somaValor(double valor1, double valor2)
+        //é o método construtor da classe
+        public Operacoes()
         {
-            return (valor1 + valor2);
         }
-        public double subtrairValor(double valor1, double valor2)
+        public double somarValor(double v1, double v2)
         {
-            return (valor1 - valor2);
+            return (v1 + v2);
         }
-        public double multiplacarValor(double valor1, double valor2)
+        public double subtracaoValor(double v1, double v2)
         {
-            return (valor1 * valor2);
+            return (v1 - v2);
         }
-        public double dividirValor(double valor1, double valor2)
+        public double multiplicacaoValor(double v1, double v2)
         {
-            return (valor1 / valor2);
+            return (v1 * v2);
+        }
+        public double divisaoValor(double v1, double v2)
+        {
+            return (v1 / v2);
+
         }
     }
 }

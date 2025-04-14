@@ -14,7 +14,7 @@ namespace Padaria
     {
         public frmFuncionarios()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
 
         private void maskedTextBox3_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
