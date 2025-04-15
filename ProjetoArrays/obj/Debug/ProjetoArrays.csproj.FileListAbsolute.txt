@@ -8,3 +8,4 @@ C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\
 C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\obj\Debug\ProjetoArrays.exe
 C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\obj\Debug\ProjetoArrays.pdb
 C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\obj\Debug\ProjetoArrays.frmVetores.resources
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\obj\Debug\ProjetoArrays.frmVetorNomes.resources

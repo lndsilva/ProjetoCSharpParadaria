@@ -16,7 +16,7 @@ namespace ProjetoArrays
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmVetores());
+            Application.Run(new frmVetorNomes());
         }
     }
 }
