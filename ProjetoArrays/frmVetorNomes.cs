@@ -16,20 +16,27 @@ namespace ProjetoArrays
         {
             InitializeComponent();
         }
-
+        int i = 0;
+        int a = 0;
+        string[] nomes = new string[5];
         private void brnCarregaNomes_Click(object sender, EventArgs e)
         {
-            string [] nomes = new string[5];
 
-            for (int i = 0; i < nomes.Length; i++)
-            {
-                nomes[i] = txtNomes.Text;
-            }
+            nomes[a] = txtNomes.Text;
 
-            for (int i = 0; i < nomes.Length; i++)
+            txtNomes.Clear();
+            if (a == 4)
             {
-                MessageBox.Show(nomes[i]);
+
+                for (i = 0; i < nomes.Length; i++)
+                {
+                    ltbNomes.Items.Add(nomes[i]);
+                }
+
+               
             }
+            a++;
+
         }
     }
 }

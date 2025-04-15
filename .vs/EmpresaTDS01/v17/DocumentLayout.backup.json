@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\laercio.nsilva\\Documents\\Visual Studio 2022\\EmpresaTDS01\\",
+  "WorkspaceRootPath": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FEFF114-8958-45AC-84FA-BAD6FEAB7493}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\laercio.nsilva\\documents\\visual studio 2022\\empresatds01\\projetoarrays\\frmvetornomes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FEFF114-8958-45AC-84FA-BAD6FEAB7493}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoarrays\\frmvetornomes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FEFF114-8958-45AC-84FA-BAD6FEAB7493}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\frmvetornomes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FEFF114-8958-45AC-84FA-BAD6FEAB7493}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\laercio.nsilva\\documents\\visual studio 2022\\empresatds01\\projetoarrays\\frmvetornomes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3FEFF114-8958-45AC-84FA-BAD6FEAB7493}|ProjetoArrays\\ProjetoArrays.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\projetocsharpparadaria\\projetoarrays\\frmvetornomes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3FEFF114-8958-45AC-84FA-BAD6FEAB7493}|ProjetoArrays\\ProjetoArrays.csproj|solutionrelative:projetoarrays\\frmvetornomes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -24,25 +24,25 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "frmVetorNomes.cs",
-              "DocumentMoniker": "C:\\Users\\laercio.nsilva\\Documents\\Visual Studio 2022\\EmpresaTDS01\\ProjetoArrays\\frmVetorNomes.cs",
+              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetorNomes.cs",
               "RelativeDocumentMoniker": "ProjetoArrays\\frmVetorNomes.cs",
-              "ToolTip": "C:\\Users\\laercio.nsilva\\Documents\\Visual Studio 2022\\EmpresaTDS01\\ProjetoArrays\\frmVetorNomes.cs",
+              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetorNomes.cs",
               "RelativeToolTip": "ProjetoArrays\\frmVetorNomes.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAwBkAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA0wBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T14:22:58.86Z",
+              "WhenOpened": "2025-04-15T22:53:35.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "frmVetorNomes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\laercio.nsilva\\Documents\\Visual Studio 2022\\EmpresaTDS01\\ProjetoArrays\\frmVetorNomes.cs",
+              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetorNomes.cs",
               "RelativeDocumentMoniker": "ProjetoArrays\\frmVetorNomes.cs",
-              "ToolTip": "C:\\Users\\laercio.nsilva\\Documents\\Visual Studio 2022\\EmpresaTDS01\\ProjetoArrays\\frmVetorNomes.cs [Design]",
+              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\ProjetoCSharpParadaria\\ProjetoArrays\\frmVetorNomes.cs [Design]",
               "RelativeToolTip": "ProjetoArrays\\frmVetorNomes.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T14:20:50.5Z",
+              "WhenOpened": "2025-04-15T22:53:26.439Z",
               "EditorCaption": " [Design]"
             }
           ]

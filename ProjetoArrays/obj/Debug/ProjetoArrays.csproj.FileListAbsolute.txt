@@ -9,3 +9,14 @@ C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\
 C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\obj\Debug\ProjetoArrays.pdb
 C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\obj\Debug\ProjetoArrays.frmVetores.resources
 C:\Users\laercio.nsilva\Documents\Visual Studio 2022\EmpresaTDS01\ProjetoArrays\obj\Debug\ProjetoArrays.frmVetorNomes.resources
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\bin\Debug\ProjetoArrays.exe.config
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\bin\Debug\ProjetoArrays.exe
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\bin\Debug\ProjetoArrays.pdb
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.csproj.AssemblyReference.cache
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.frmVetores.resources
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.frmVetorNomes.resources
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.Properties.Resources.resources
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.csproj.GenerateResource.cache
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.csproj.CoreCompileInputs.cache
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.exe
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.pdb

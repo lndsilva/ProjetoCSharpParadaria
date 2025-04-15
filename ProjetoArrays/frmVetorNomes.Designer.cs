@@ -32,6 +32,7 @@
             this.brnCarregaNomes = new System.Windows.Forms.Button();
             this.lblDigiteSeuNome = new System.Windows.Forms.Label();
             this.txtNomes = new System.Windows.Forms.TextBox();
+            this.ltbNomes = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // brnCarregaNomes
@@ -64,11 +65,22 @@
             this.txtNomes.Size = new System.Drawing.Size(199, 26);
             this.txtNomes.TabIndex = 0;
             // 
+            // ltbNomes
+            // 
+            this.ltbNomes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltbNomes.FormattingEnabled = true;
+            this.ltbNomes.ItemHeight = 20;
+            this.ltbNomes.Location = new System.Drawing.Point(348, 53);
+            this.ltbNomes.Name = "ltbNomes";
+            this.ltbNomes.Size = new System.Drawing.Size(279, 264);
+            this.ltbNomes.TabIndex = 2;
+            // 
             // frmVetorNomes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(677, 439);
+            this.Controls.Add(this.ltbNomes);
             this.Controls.Add(this.txtNomes);
             this.Controls.Add(this.lblDigiteSeuNome);
             this.Controls.Add(this.brnCarregaNomes);
@@ -88,5 +100,6 @@
         private System.Windows.Forms.Button brnCarregaNomes;
         private System.Windows.Forms.Label lblDigiteSeuNome;
         private System.Windows.Forms.TextBox txtNomes;
+        private System.Windows.Forms.ListBox ltbNomes;
     }
 }
