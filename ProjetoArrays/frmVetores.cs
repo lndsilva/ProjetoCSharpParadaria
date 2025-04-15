@@ -19,6 +19,13 @@ namespace ProjetoArrays
 
         private void btnCarrega_Click(object sender, EventArgs e)
         {
+
+            carregaVetores();
+            
+        }
+
+        public void carregaVetores()
+        {
             //criando um vetor ou array de linha
             string[] nome = new string[10];
 
@@ -36,12 +43,11 @@ namespace ProjetoArrays
             nome[9] = "Giovanne";
 
             ltbNomes.Items.Clear();
-            //percorrendo o vetor ou array de linha
+            ////percorrendo o vetor ou array de linha
             for (int i = 0; i < 10; i++)
             {
                 ltbNomes.Items.Add(nome[i]);
             }
-
         }
     }
 }

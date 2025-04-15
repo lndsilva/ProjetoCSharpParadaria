@@ -30,14 +30,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVetores));
             this.gpbNomes = new System.Windows.Forms.GroupBox();
-            this.btnCarrega = new System.Windows.Forms.Button();
-            this.ltbNomes = new System.Windows.Forms.ListBox();
             this.lblListaNomes = new System.Windows.Forms.Label();
+            this.ltbNomes = new System.Windows.Forms.ListBox();
+            this.btnCarrega = new System.Windows.Forms.Button();
+            this.lblTamanho = new System.Windows.Forms.Label();
+            this.txtTamanho = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.gpbNomes.SuspendLayout();
             this.SuspendLayout();
             // 
             // gpbNomes
             // 
+            this.gpbNomes.Controls.Add(this.textBox1);
+            this.gpbNomes.Controls.Add(this.label1);
+            this.gpbNomes.Controls.Add(this.txtTamanho);
+            this.gpbNomes.Controls.Add(this.lblTamanho);
             this.gpbNomes.Controls.Add(this.lblListaNomes);
             this.gpbNomes.Controls.Add(this.ltbNomes);
             this.gpbNomes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -47,6 +55,24 @@
             this.gpbNomes.TabIndex = 0;
             this.gpbNomes.TabStop = false;
             this.gpbNomes.Text = "Nomes";
+            // 
+            // lblListaNomes
+            // 
+            this.lblListaNomes.AutoSize = true;
+            this.lblListaNomes.Location = new System.Drawing.Point(285, 22);
+            this.lblListaNomes.Name = "lblListaNomes";
+            this.lblListaNomes.Size = new System.Drawing.Size(109, 20);
+            this.lblListaNomes.TabIndex = 1;
+            this.lblListaNomes.Text = "Lista de nome";
+            // 
+            // ltbNomes
+            // 
+            this.ltbNomes.FormattingEnabled = true;
+            this.ltbNomes.ItemHeight = 20;
+            this.ltbNomes.Location = new System.Drawing.Point(285, 57);
+            this.ltbNomes.Name = "ltbNomes";
+            this.ltbNomes.Size = new System.Drawing.Size(246, 224);
+            this.ltbNomes.TabIndex = 0;
             // 
             // btnCarrega
             // 
@@ -59,23 +85,39 @@
             this.btnCarrega.UseVisualStyleBackColor = true;
             this.btnCarrega.Click += new System.EventHandler(this.btnCarrega_Click);
             // 
-            // ltbNomes
+            // lblTamanho
             // 
-            this.ltbNomes.FormattingEnabled = true;
-            this.ltbNomes.ItemHeight = 20;
-            this.ltbNomes.Location = new System.Drawing.Point(285, 57);
-            this.ltbNomes.Name = "ltbNomes";
-            this.ltbNomes.Size = new System.Drawing.Size(246, 224);
-            this.ltbNomes.TabIndex = 0;
+            this.lblTamanho.AutoSize = true;
+            this.lblTamanho.Location = new System.Drawing.Point(24, 48);
+            this.lblTamanho.Name = "lblTamanho";
+            this.lblTamanho.Size = new System.Drawing.Size(76, 20);
+            this.lblTamanho.TabIndex = 2;
+            this.lblTamanho.Text = "Tamanho";
             // 
-            // lblListaNomes
+            // txtTamanho
             // 
-            this.lblListaNomes.AutoSize = true;
-            this.lblListaNomes.Location = new System.Drawing.Point(285, 22);
-            this.lblListaNomes.Name = "lblListaNomes";
-            this.lblListaNomes.Size = new System.Drawing.Size(109, 20);
-            this.lblListaNomes.TabIndex = 1;
-            this.lblListaNomes.Text = "Lista de nome";
+            this.txtTamanho.Location = new System.Drawing.Point(24, 71);
+            this.txtTamanho.MaxLength = 3;
+            this.txtTamanho.Name = "txtTamanho";
+            this.txtTamanho.Size = new System.Drawing.Size(76, 26);
+            this.txtTamanho.TabIndex = 0;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(24, 142);
+            this.textBox1.MaxLength = 3;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(176, 26);
+            this.textBox1.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(24, 119);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(118, 20);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Insira um nome";
             // 
             // frmVetores
             // 
@@ -102,5 +144,9 @@
         private System.Windows.Forms.ListBox ltbNomes;
         private System.Windows.Forms.Button btnCarrega;
         private System.Windows.Forms.Label lblListaNomes;
+        private System.Windows.Forms.TextBox txtTamanho;
+        private System.Windows.Forms.Label lblTamanho;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
