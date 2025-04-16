@@ -25,18 +25,18 @@ namespace ProjetoArrays
             nomes[a] = txtNomes.Text;
 
             txtNomes.Clear();
+            txtNomes.Focus();
             if (a == 4)
             {
-
                 for (i = 0; i < nomes.Length; i++)
                 {
                     ltbNomes.Items.Add(nomes[i]);
                 }
-
-               
             }
             a++;
 
         }
+
+        
     }
 }

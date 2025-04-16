@@ -14,9 +14,10 @@ namespace ProjetoArrays
     {
         public frmVetores()
         {
-            InitializeComponent();
+            InitializeComponent();          
         }
 
+      
         private void btnCarrega_Click(object sender, EventArgs e)
         {
 
