@@ -32,3 +32,4 @@ C:\Users\laercio.nsilva\Documents\Visual Studio 2022\ProjetoCSharpParadaria\Proj
 C:\Users\laercio.nsilva\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.exe
 C:\Users\laercio.nsilva\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.pdb
 C:\Users\laercio.nsilva\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.frmNumAleatorio.resources
+C:\Users\laercio.nsilva\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.frmMatrizes.resources

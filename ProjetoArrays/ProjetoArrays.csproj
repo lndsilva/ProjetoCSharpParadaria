@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmMatrizes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatrizes.Designer.cs">
+      <DependentUpon>frmMatrizes.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNumAleatorio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMatrizes.resx">
+      <DependentUpon>frmMatrizes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNumAleatorio.resx">
       <DependentUpon>frmNumAleatorio.cs</DependentUpon>
     </EmbeddedResource>

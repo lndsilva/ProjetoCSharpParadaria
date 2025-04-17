@@ -16,7 +16,7 @@ namespace ProjetoArrays
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmNumAleatorio());
+            Application.Run(new frmMatrizes());
         }
     }
 }
